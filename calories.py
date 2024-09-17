@@ -17,7 +17,6 @@ with open('prompt_out.txt', 'r') as file:
 
 # Print the input_prompt to verify the content
 print(input_prompt)
-load_dotenv()
 
 def get_gemini_reponse(input_prompt,image,user_prompt):
     model=genai.GenerativeModel('gemini-1.5-pro-latest')
