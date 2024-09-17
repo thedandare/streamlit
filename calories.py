@@ -4,7 +4,7 @@ import streamlit as st
 import os
 import google.generativeai as genai
 from PIL import Image
-genai.configure(api_key=os.getenv("GOOGLE_GEMINI_API_KEY"))
+genai.configure(api_key="AIzaSyCGD48gQ8QN_FV9AKRRLB8OiY06b9Xgn4o")
 # # Open the file prompt_out.txt and read its content
 
 
